@@ -21,8 +21,8 @@ int main()
     }
 
     //bubble short 
-    for(j=0;j<n;j++){
-        for(i=0;i<n;i++){
+    for(j=0;j<n-1;j++){
+        for(i=0;i<n-1-j;i++){
             if(arr[i]>arr[i+1]){
                 val=arr[i];
                 arr[i]=arr[i+1];
